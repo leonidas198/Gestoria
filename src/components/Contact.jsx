@@ -13,13 +13,13 @@ export const Contact = () => {
 
     try {
       const response = await fetch( `${import.meta.env.VITE_API_URL}/send`, {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       } );
-      
+
 
       const result = await response.text();
       setStatus(result);
