@@ -19,6 +19,7 @@ export const Contact = () => {
         },
         body: JSON.stringify(formData),
       } );
+      
 
       const result = await response.text();
       setStatus(result);
