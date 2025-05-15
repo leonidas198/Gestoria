@@ -12,7 +12,7 @@ export const Contact = () => {
     const formData = {name, email, message};
 
     try {
-      const response = await fetch( `${import.meta.env.VITE_API_URL}/api/contact`, {
+      const response = await fetch( `${import.meta.env.VITE_API_URL}/send`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
