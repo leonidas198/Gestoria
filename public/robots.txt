@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tusitio.vercel.app/sitemap.xml
+Sitemap: https://gestoriadigital.vercel.app/sitemap.xml
