@@ -9,6 +9,8 @@ import { ScrollButton } from './components/ScrollButton';
 
 import { Services } from "./components/Services"
 import { Testimonials } from "./components/Testimonials"
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { TermsAndConditions } from './pages/TermsAndConditions';
 
 
 
@@ -25,6 +27,7 @@ export const App = () => {
       <FAQ/>
       <Testimonials/>
       <Contact/>
+      
       <Footer/>
      
       <ScrollButton/>
