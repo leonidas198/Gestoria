@@ -21,9 +21,8 @@ export const Services = () => {
           <h3>Asesorías Personalizadas</h3>
           <p>Te guiamos en tus gestiones administrativas.</p>
         </div>
-        <div>
-        <a href="https://amzn.to/4elJFRf" className="amazon"> <p>Para obtener información sobre productos para tu oficina, sigue este enlace...</p></a>                  
-        </div>
+       
+       
 
       </div>
     </section>
