@@ -22,8 +22,7 @@ export const Services = () => {
           <p>Te guiamos en tus gestiones administrativas.</p>
         </div>
         <div>
-        <a href="https://amzn.to/4elJFRf" className="amazon"><img src="public/descarga(1).png" alt="foto"></img></a>
-          
+        <a href="https://amzn.to/4elJFRf" className="amazon"> <p>Para obtener información sobre productos para tu oficina, sigue este enlace...</p></a>                  
         </div>
 
       </div>
