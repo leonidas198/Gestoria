@@ -5,6 +5,7 @@ import { FAQ } from "./components/FAQ"
 import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Navbar } from "./components/Navbar"
+import { PublicidadAmazon } from './components/PublicidadAmazon';
 import { ScrollButton } from './components/ScrollButton';
 
 import { Services } from "./components/Services"
@@ -20,13 +21,16 @@ export const App = () => {
   return (
     <div>
       <Navbar/>
+      
       <Header/>
+      <PublicidadAmazon/>
       <Services/>
       <About/>
+      <PublicidadAmazon/>
       <FAQ/>
       <Testimonials/>
       <Contact/>
-      
+      <PublicidadAmazon/>
       <Footer/>
      
       <ScrollButton/>

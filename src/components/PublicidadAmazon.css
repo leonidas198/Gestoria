@@ -1,0 +1,58 @@
+  .publicidad-amazon {
+  margin: 40px 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.publicidad-amazon {
+  margin: 40px auto; /* esto centra horizontalmente */
+  padding: 20px;
+  max-width: 800px; /* ancho máximo */
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  text-align: center; /* centra el texto y encabezado */
+}
+
+
+.publicidad-amazon h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.productos-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.producto-amazon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+  transition: box-shadow 0.3s ease;
+}
+
+.producto-amazon:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.producto-imagen {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.producto-titulo {
+  font-size: 14px;
+  text-align: center;
+}
